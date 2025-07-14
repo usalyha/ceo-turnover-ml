@@ -24,16 +24,16 @@ We build and interpret classification models to predict CEO forced turnovers bas
   - Firm-level financial ratios: profitability, growth, and stability
   - 3-year lagged variables for compensation and financials
 
-> Each row represents a CEO-firm-year combination.
+> Each row represents the performance of a CEO and their firm for a specific year.
 
-We apply **matched case-control sampling** (1:1 and 1:2) to handle class imbalance and avoid bias in forced vs. non-forced turnovers.
+We apply **case-control sampling** (1:1 and 1:2) to handle class imbalance and avoid bias in forced vs. non-forced turnovers.
 
 
 ## Methods
 
 ### Models
 - XGBoost (feature importance)
-- Decision Tree & Random Forest (full and matched sample)
+- Decision Tree & Random Forest (full & case-control sample)
 - Logistic Regression (baseline, Lasso-selected, Boosting-selected)
 
 ### Key Techniques
