@@ -33,7 +33,7 @@ We apply **matched case-control sampling** (1:1 and 1:2) to handle class imbalan
 
 ### Models
 - XGBoost (feature importance)
-- Random Forest (full + matched data)
+- Decision Tree & Random Forest (full and matched sample)
 - Logistic Regression (baseline, Lasso-selected, Boosting-selected)
 
 ### Key Techniques
@@ -71,5 +71,5 @@ ceo-turnover-ml
 ├── data/                 
 ├── logistic/              
 ├── xgboost/                
-├── decisiontree/                   
+├── treemodels/                   
 └── README.md        
