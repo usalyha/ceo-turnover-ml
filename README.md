@@ -69,7 +69,7 @@ We apply **matched case-control sampling** (1:1 and 1:2) to handle class imbalan
 ```bash
 ceo-turnover-ml
 ├── data/                 
-├── logistic/              
-├── xgboost/                
-├── treemodels/                   
+├── logistic              
+├── xgboost                
+├── treemodels                   
 └── README.md        
