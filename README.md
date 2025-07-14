@@ -57,20 +57,19 @@ We apply **matched case-control sampling** (1:1 and 1:2) to handle class imbalan
 
 
 
-## 🎯 Use Cases
+## Use Cases
 
 - **For CEOs**: Understand personal risk factors for forced termination.
 - **For Investors**: Identify governance-related risk early.
 - **For Researchers**: Extend studies on corporate governance, gender dynamics, and performance sensitivity.
 
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```bash
-📦 why-do-ceos-get-fired
-├── data/                   # Cleaned & processed dataset
-├── models/                 # Model training & selection scripts
-├── analysis/               # Jupyter notebooks for EDA & interpretation
-├── figures/                # Visualizations and charts
-├── README.md               # Project overview (you are here!)
-└── requirements.txt        # Dependencies
+ceo-turnover-ml
+├── data/                 
+├── logistic/              
+├── xgboost/                
+├── decisiontree/                   
+└── README.md        
