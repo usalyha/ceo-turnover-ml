@@ -2,7 +2,7 @@
 
 A machine learning–based empirical study on predicting CEO dismissals using firm- and executive-level data from U.S. public companies between 1992 and 2022.
 
-> 📂 This project was developed as a final team assignment for *Data Mining Labs and Methods* (Spring 2025) at Seoul National University.
+> This project was developed as a final team assignment for *Data Mining Labs and Methods* (Spring 2025) at Seoul National University.
 
 
 ## Research Question
@@ -24,12 +24,12 @@ We build and interpret classification models to predict CEO forced turnovers bas
   - Firm-level financial ratios: profitability, growth, and stability
   - 3-year lagged variables for compensation and financials
 
-> 🎯 Each row represents a CEO-firm-year combination.
+> Each row represents a CEO-firm-year combination.
 
 We apply **matched case-control sampling** (1:1 and 1:2) to handle class imbalance and avoid bias in forced vs. non-forced turnovers.
 
 
-## ⚙️ Methods
+## Methods
 
 ### Models
 - XGBoost (feature importance)
